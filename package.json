@@ -1,5 +1,5 @@
 {
-  "name": "gallery-react-components",
+  "name": "react-gallery-components",
   "version": "1.0.0",
   "description": "",
   "keywords": [],
@@ -20,6 +20,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
+    "lint": "eslint --ext .ts,.tsx src/* --no-error-on-unmatched-pattern --fix",
     "eject": "react-scripts eject"
   },
   "browserslist": [
